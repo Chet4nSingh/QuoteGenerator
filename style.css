@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;   
+    font-family: "Nunito Sans", sans-serif; 
+}
+
+body, main, #quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 40%;
+    text-align: center;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+#heading {
+    color: whitesmoke;
+}
+
+
+#heading, #quote, #author {
+    font-size: 1.4rem;
+}
+
+#quote-section {
+    flex-direction: column;
+    background-color: #ffffffdd;
+    padding: 2rem;
+    gap: 1rem;
+    border-radius: 1em;
+    transition: 300ms;
+}
+
+#quote-section:hover {    
+    box-shadow: 5px 5px 20px -10px #333;
+}
+
+#author {
+    align-self: end;
+}
+
+button {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+    color: #fff;    
+    transition: 300ms;
+}
+
+button:hover {
+    box-shadow: 5px 5px 20px -10px #333;
+}
